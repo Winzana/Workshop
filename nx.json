@@ -1,0 +1,22 @@
+{
+  "npmScope": "workshop",
+  "implicitDependencies": {
+    "angular.json": "*",
+    "package.json": {
+      "dependencies": "*",
+      "devDependencies": "*"
+    },
+    "tsconfig.json": "*",
+    "tslint.json": "*",
+    "nx.json": "*"
+  },
+  "projects": {
+    "workshop": {
+      "tags": []
+    },
+    "workshop-e2e": {
+      "tags": [],
+      "implicitDependencies": ["workshop"]
+    }
+  }
+}
