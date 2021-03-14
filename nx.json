@@ -1,5 +1,4 @@
 {
-  "npmScope": "workspace",
   "implicitDependencies": {
     "workspace.json": "*",
     "package.json": {
@@ -10,5 +9,14 @@
     "tslint.json": "*",
     "nx.json": "*"
   },
-  "projects": {}
+  "npmScope": "workspace",
+  "projects": {
+    "website": {
+      "tags": []
+    },
+    "website-e2e": {
+      "tags": [],
+      "implicitDependencies": ["website"]
+    }
+  }
 }
