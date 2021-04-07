@@ -1,0 +1,10 @@
+apiVersion: serving.knative.dev/v1
+kind: Service
+metadata:
+  name: website
+  namespace: workspace
+spec:
+  template:
+    spec:
+      containers:
+        - image: gcr.io/winzana-infra/workspace/website:v0.0.1
