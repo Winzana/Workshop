@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "projects": {
+    "api-blog": "apps/api/blog",
+    "api-meteo": "apps/api/meteo",
+    "front": "apps/front",
+    "front-e2e": "apps/front-e2e"
+  }
+}

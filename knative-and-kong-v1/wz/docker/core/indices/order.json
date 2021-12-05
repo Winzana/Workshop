@@ -1,0 +1,17 @@
+{
+  "mappings": {
+    "dynamic": true
+  },
+  "settings": {
+    "index": {
+      "mapping": {
+        "total_fields": {
+          "limit": 10000
+        }
+      },
+      "blocks": {
+        "read_only_allow_delete": "false"
+      }
+    }
+  }
+}
